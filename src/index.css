@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+}
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  font: Helvetica;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 1vh;
+}
+
+p {
+  margin-bottom: 0.25vh;
+}
+
+p:hover {
+  text-transform: none;
+}
+
+a:-webkit-any-link {
+  color: initial;
+  text-decoration: none;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media only screen and (max-width: 600px) {
+  h1,
+  h2,
+  h3 {
+    margin-bottom: 0.5vw;
+  }
+  p {
+    font-size: medium;
+  }
+}

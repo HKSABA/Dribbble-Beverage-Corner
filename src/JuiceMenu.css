@@ -1,0 +1,43 @@
+.juiceMenu {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.juiceMenu__image {
+  width: 60%;
+}
+
+.juiceMenu__image > img {
+  width: 100%;
+  max-width: 400px;
+  vertical-align: center;
+}
+
+.juiceMenu__description {
+  padding-bottom: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.juiceMenu__description > p {
+  width: 80%;
+  color: grey;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+  .juiceMenu__image {
+    width: 60%;
+  }
+  .juiceMenu__description > h3 {
+    width: min-content;
+  }
+  .juiceMenu__description > p {
+    width: 60%;
+  }
+}
